@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#wrapper {
+	width:1500px;
+	height:2000px;
+	margin:0 auto;
+	border:;
+	padding:;
+	background:url('../images/bg_clown.jpg') no-repeat center;
+}
+
+#header {
+	width:1460px;
+	height:300px;
+	margin:0;
+	border:;
+	padding:0 20px;
+	font-family: 'Creepster', cursive;
+	font-size:60px;
+}
+
+#header h1 {
+	color:#fff;
+}
+/*
+#nav {
+	display:none;
+	width:;
+	height:0;
+	margin:;
+	border:;
+	padding:;
+}
+*/
+#content {
+	width:1460px;
+	height:1480px;
+	margin:0;
+	border:;
+	padding:10px 20px;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+}
+
+#left-header {
+	width:50%;
+	height:350px;
+}
+
+#content p {
+	font-size:14px;
+}
+
+#footer {
+	width:1460px;
+	height:50px;
+	margin:;
+	border:;
+	padding:75px 20px;
+}
+
+#social-media {
+	text-align:center;
+}

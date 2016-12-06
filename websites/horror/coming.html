@@ -1,0 +1,28 @@
+<!DOCTYPE html />
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Coming Soon!</title>
+		<link rel="stylesheet" type="text/css" href="styles/coming.css" />
+		<script src="scripts/jquery.js"></script>
+		<script src="scripts/modal.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<form id="subscribe" action="">
+				<input name="email" type="text" placeholder="Enter your email:" />
+				<label class="error" for="email" id="email_error">This is a required field.</label>
+				<input type="submit" name="submit" class="button" id="submit_btn" value="Subscribe" />
+			</form>
+			
+			<div id="thank_modal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>Thanks for subscribing! You'll recieve further emails about the release of our game!</p>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
